@@ -295,13 +295,13 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans        &trans             &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &mkp MB4      &mkp MB5           &mkp MB1  &mkp MB3  &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &mkp MB1           &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans             &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp K_VOL_UP  &kp K_VOLUME_DOWN                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp K_VOL_UP  &kp K_VOLUME_DOWN                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp 0 0>;
         };
 
         layer_7 {
